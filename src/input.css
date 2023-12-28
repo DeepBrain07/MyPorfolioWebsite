@@ -7,3 +7,195 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#svg1 {
+    color:white
+}
+#stack-bg1:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg1:hover #svg1 {
+    color: #1D4ED8
+}
+
+#svg2 {
+    color:white
+}
+#stack-bg2:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg2:hover #svg2 {
+    color: #1D4ED8
+}
+
+#svg3 {
+    color:white
+}
+#stack-bg3:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg3:hover #svg3 {
+    color: #1D4ED8
+}
+
+#svg4 {
+    color:white
+}
+#stack-bg4:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg4:hover #svg4 {
+    color: #1D4ED8
+}
+
+#svg5 {
+    color:white
+}
+#stack-bg5:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg5:hover #svg5 {
+    color: #1D4ED8
+}
+
+#svg6 {
+    color:white
+}
+#stack-bg6:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg6:hover #svg6 {
+    color: #1D4ED8
+}
+
+#svg7 {
+    color:white
+}
+#stack-bg7:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg7:hover #svg7 {
+    color: #1D4ED8
+}
+
+#svg8 {
+    color:white
+}
+#stack-bg8:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg8:hover #svg8 {
+    color: #1D4ED8
+}
+
+#svg9 {
+    color:white
+}
+#stack-bg9:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg9:hover #svg9 {
+    color: #1D4ED8
+}
+
+#svg10 {
+    color:white
+}
+#stack-bg10:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg10:hover #svg10 {
+    color: #1D4ED8
+}
+
+#svg11 {
+    color:white
+}
+#stack-bg11:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg11:hover #svg11 {
+    color: #1D4ED8
+}
+
+#svg12 {
+    color:white
+}
+#stack-bg12:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg12:hover #svg12 {
+    color: #1D4ED8
+}
+
+#svg13 {
+    color:white
+}
+#stack-bg13:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg13:hover #svg13 {
+    color: #1D4ED8
+}
+
+#svg14 {
+    color:white
+}
+#stack-bg14:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg14:hover #svg14 {
+    color: #1D4ED8
+}
+
+#svg15 {
+    color:white
+}
+#stack-bg15:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg15:hover #svg15 {
+    color: #1D4ED8
+}
+
+#svg16 {
+    color:white
+}
+#stack-bg16:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg16:hover #svg16 {
+    color: #1D4ED8
+}
+
+#svg17 {
+    color:white
+}
+#stack-bg17:hover {
+    background-color: white;
+    color: #1D4ED8 
+}
+#stack-bg17:hover #svg17 {
+    color: #1D4ED8
+}
+
+#twitter:hover, #whatsapp:hover, #linkedin:hover, #github:hover {
+    color: #1D4ED8
+}
