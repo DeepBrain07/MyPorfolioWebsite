@@ -199,3 +199,11 @@
 #twitter:hover, #whatsapp:hover, #linkedin:hover, #github:hover {
     color: #1D4ED8
 }
+
+#namssn_project:hover #namssn_details {
+    display: flex;
+}
+
+#trackc_project:hover #trackc_details {
+    display: flex;
+}
