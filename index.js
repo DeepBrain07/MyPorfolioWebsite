@@ -58,12 +58,13 @@ const navbar = document.getElementById("navbar");
 if (opennavbar) {
     opennavbar.onclick = () => {
         opennavbar.style.display = 'none';
+        closenavbar.style.display = 'flex';
         navbar.style.display = 'flex';
     }
 }
 if (closenavbar) {
     closenavbar.onclick = () => {
-        // closenavbar.style.display = 'none';
+        closenavbar.style.display = 'none';
         navbar.style.display = 'none';
         opennavbar.style.display = 'flex';
     }
