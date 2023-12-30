@@ -59,12 +59,11 @@ if (opennavbar) {
     opennavbar.onclick = () => {
         opennavbar.style.display = 'none';
         navbar.style.display = 'flex';
-        closenavbar.style.display = 'flex';
     }
 }
 if (closenavbar) {
     closenavbar.onclick = () => {
-        closenavbar.style.display = 'none';
+        // closenavbar.style.display = 'none';
         navbar.style.display = 'none';
         opennavbar.style.display = 'flex';
     }
@@ -113,5 +112,32 @@ if (close_preview) {
 if (close_preview2) {
     close_preview2.onclick = () => {
         trackc_preview_page.style.display = 'none';
+    }
+}
+
+const about_b = document.getElementById("about_b");
+const projects_b = document.getElementById("projects_b");
+const stacks_b = document.getElementById("stacks_b");
+const contact_b = document.getElementById("contact_b");
+if (about_b && projects_b && stacks_b && contact_b) {
+    about_b.onclick = () => {
+        // closenavbar.style.display = 'none';
+        navbar.style.display = 'none';
+        opennavbar.style.display = 'flex';
+    }
+    projects_b.onclick = () => {
+        // closenavbar.style.display = 'none';
+        navbar.style.display = 'none';
+        opennavbar.style.display = 'flex';
+    }
+    stacks_b.onclick = () => {
+        // closenavbar.style.display = 'none';
+        navbar.style.display = 'none';
+        opennavbar.style.display = 'flex';
+    }
+    contact_b.onclick = () => {
+        // closenavbar.style.display = 'none';
+        navbar.style.display = 'none';
+        opennavbar.style.display = 'flex';
     }
 }

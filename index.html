@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./dist/output.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
 </head>   
 <body id="body" class="bg-gray-900  pb-4 px-8 md:px-10 text-white">
   <div class="w-full flex flex-row justify-between">
@@ -11,19 +11,22 @@
         DH4NN
     </div>
     <div class="md:hidden  flex flex-row gap-4">
-        <div id="navbar" class="shadow-lg left-[35%] fixed mt-4 w-[15em] rounded-md bg-blue-700 py-4 pl-4 pr-10 hidden flex-col justify-start  gap-2 my-2 text-lg sm:mt-4 cursor-pointer">
+        <div id="navbar" class="shadow-lg left-[40%] right-[20%] sm:left-[50%] sm:right[10%] fixed mt-4 w-[15em] rounded-md bg-blue-700 py-4 pl-4 pr-8 hidden flex-col justify-start  gap-2 my-2 text-lg sm:mt-4 cursor-pointer">
+            <div id="closenavbar" class="pl-[11.5em] w-full">
+                <svg class="w-[1.5em] h-[1.5em]" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#ffffff" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"></path></g></svg>
+            </div>
             <a href=""><div class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>Home</span></div></a>
-            <a href="#about"><div class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>About</span></div></a>
-            <a href="#projects"><div class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>Projects</span></div></a>
-            <a href="#stacks"><div class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>Skills</span></div></a>
-            <a href="#contact"></a><div class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>Contact</span></div></a>
+            <a href="#about"><div id="about_b" class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>About</span></div></a>
+            <a href="#projects"><div id="projects_b" class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>Projects</span></div></a>
+            <a href="#stacks"><div id="stacks_b" class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>Skills</span></div></a>
+            <a href="#contact"><div id="contact_b" class="w-[80%] rounded-md pl-2 pr-28 hover:bg-white hover:text-blue-700"><span>Contact</span></div></a>
         </div>
         <div id="opennavbar" class="left-[85%] fixed rounded-sm flex justify-center items-center w-[2.8em] h-[2.2em] md:hidden mt-4 bg-blue-700">
             <svg class="w-[1.5em] h-[1.5em]" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 382 382" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <circle style="fill:#ffffff;" cx="20" cy="91" r="20"></circle> <rect x="80" y="71" style="fill:#ffffff;" width="302" height="40"></rect> <circle style="fill:#ffffff;" cx="20" cy="291" r="20"></circle> <rect x="80" y="271" style="fill:#ffffff;" width="302" height="40"></rect> <circle style="fill:#ffffff;" cx="20" cy="191" r="20"></circle> <rect x="80" y="171" style="fill:#ffffff;" width="302" height="40"></rect> </g> </g></svg>
         </div>
-        <div id="closenavbar" class="left-[85%] fixed rounded-sm hidden justify-center items-center w-[2.8em] h-[2.2em] md:hidden mt-4 bg-blue-700">
-            <svg class="w-[1.5em] h-[1.5em]" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#ffffff" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"></path></g></svg>
-        </div>
+        <!-- <div id="closenavbar" class="left-[85%] fixed rounded-sm hidden justify-center items-center w-[2.8em] h-[2.2em] md:hidden mt-4 bg-blue-700">
+            
+        </div> -->
     </div>
     <div class="hidden md:flex gap-2 my-2 text-lg sm:mt-4 cursor-pointer">
         <a href=""><span class="hover:text-blue-700">Home</span></a>
