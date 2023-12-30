@@ -638,6 +638,10 @@ video {
   margin-top: 20em;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .inline{
   display: inline;
 }
