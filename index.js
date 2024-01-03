@@ -69,6 +69,12 @@ if (closenavbar) {
         opennavbar.style.display = 'flex';
     }
 }
+if (navbar) {
+    navbar.onclick = () => {
+        closenavbar.style.display = 'none';
+        opennavbar.style.display = 'flex';
+    }
+}
 
 const namssn_project = document.getElementById("namssn_project");
 const namssn_details = document.getElementById("namssn_details");
