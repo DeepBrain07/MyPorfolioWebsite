@@ -33,6 +33,12 @@ const myForm = document.getElementById("myForm");
 //         console.log('Email sent: ' + info.response);
 //     }
 // });
+
+window.addEventListener('load', function() {
+    var spinner = document.getElementById('loading-spinner');
+    spinner.style.display = 'none';
+});
+
 const scf = document.getElementById("scf");
 const hf = document.getElementById("hf");
 

@@ -1012,6 +1012,30 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 #svg1 {
   color:white
 }
@@ -1258,20 +1282,6 @@ video {
     animation: fadeIn 1s ease-in-out forwards; */
 }
 
-.fade-in-scroll-active {
-  opacity: 1;
-}
-
-/* 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-} */
-
 .hover\:border-2:hover{
   border-width: 2px;
 }
@@ -1503,3 +1513,4 @@ video {
     padding-right: 5rem;
   }
 }
+
