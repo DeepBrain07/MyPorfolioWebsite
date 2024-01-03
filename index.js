@@ -34,10 +34,10 @@ const myForm = document.getElementById("myForm");
 //     }
 // });
 
-window.addEventListener('load', function() {
-    var spinner = document.getElementById('loading-spinner');
-    spinner.style.display = 'none';
-});
+// window.addEventListener('load', function() {
+//     var spinner = document.getElementById('loading-spinner');
+//     spinner.style.display = 'none';
+// });
 
 const scf = document.getElementById("scf");
 const hf = document.getElementById("hf");
