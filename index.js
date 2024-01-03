@@ -142,3 +142,22 @@ if (about_b && projects_b && stacks_b && contact_b) {
         opennavbar.style.display = 'flex';
     }
 }
+
+window.addEventListener('scroll', function() {
+    var elements = document.querySelectorAll('.fadeInElement');
+    // var position = elements.getBoundingClientRect();
+
+    elements.forEach(function(element) {
+        var position = element.getBoundingClientRect();
+
+        // If the element is in the viewport, add the class to trigger the fade-in
+        if (position.top < window.innerHeight && position.bottom >= 0) {
+            console.log(elements.length)
+            element.style.opacity = 1;
+        }
+    });
+    // if (position.top < window.innerHeight && position.bottom >= 0) {
+    //     // element.classList.add('fade-in-scroll-active');
+    //     element.style.opacity = 1;
+    // }
+});
