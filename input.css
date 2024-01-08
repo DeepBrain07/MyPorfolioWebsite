@@ -9,23 +9,41 @@
 @tailwind utilities;
 
 
-/* .loading-spinner {
-    border: 4px solid rgba(0, 0, 0, 0.1);
+.loading-spinner {
+    /* border: 4px solid rgba(0, 0, 0, 0.1);
     border-left: 4px solid #3498db;
     border-radius: 50%;
     width: 50px;
-    height: 50px;
-    animation: spin 1s linear infinite;
-    position: fixed;
-    top: 50%;
+    height: 50px; */
+    animation: spin 30s linear infinite;
+    /* top: 50%;
     left: 50%;
     margin-top: -25px;
-    margin-left: -25px;
-} */
+    margin-left: -25px; */
+}
+
+.loading-spinner2 {
+    /* border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; */
+    animation: spin 20s linear infinite;
+    /* top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px; */
+}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.angled-line {
+    background-color: #1D4ED8;
+    transform: rotate(45deg);
+    transform-origin: 0% 50%;
 }
 
 #svg1 {
