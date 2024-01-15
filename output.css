@@ -612,6 +612,30 @@ video {
   top: 50%;
 }
 
+.right-\[20\%\]{
+  right: 20%;
+}
+
+.right-\[15\%\]{
+  right: 15%;
+}
+
+.top-\[60\%\]{
+  top: 60%;
+}
+
+.left-\[40\%\]{
+  left: 40%;
+}
+
+.left-\[60\%\]{
+  left: 60%;
+}
+
+.-z-10{
+  z-index: -10;
+}
+
 .my-2{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -664,6 +688,10 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.ml-32{
+  margin-left: 8rem;
 }
 
 .inline{
@@ -724,6 +752,42 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[250px\]{
+  height: 250px;
+}
+
+.h-\[4px\]{
+  height: 4px;
+}
+
+.h-\[1200px\]{
+  height: 1200px;
+}
+
+.h-\[2000px\]{
+  height: 2000px;
+}
+
+.h-\[1400px\]{
+  height: 1400px;
+}
+
+.h-\[1700px\]{
+  height: 1700px;
+}
+
+.h-\[1600px\]{
+  height: 1600px;
+}
+
+.h-\[1500px\]{
+  height: 1500px;
+}
+
+.h-\[1300px\]{
+  height: 1300px;
 }
 
 .w-\[1\.3em\]{
@@ -788,6 +852,14 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[4px\]{
+  width: 4px;
+}
+
+.w-\[px\]{
+  width: px;
 }
 
 .max-w-\[10em\]{
@@ -860,6 +932,14 @@ video {
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 
 .overflow-y-scroll{
@@ -987,6 +1067,14 @@ video {
 
 .pt-6{
   padding-top: 1.5rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pl-32{
+  padding-left: 8rem;
 }
 
 .text-center{
@@ -1487,6 +1575,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:right-\[30\%\]{
+    right: 30%;
+  }
+
+  .md\:top-\[60\%\]{
+    top: 60%;
+  }
+
   .md\:mt-24{
     margin-top: 6rem;
   }
